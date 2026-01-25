@@ -26,12 +26,12 @@
         <friend>
             <name>John</name>
             <surname>Doe</surname>
-            <age isAlive="true">35</age>
+            <age exists="true">35</age>
         </friend>
         <friend>
             <name>Anna</name>
             <surname>Smith</surname>
-            <age isAlive="false">Null</age>
+            <age exists="false">Null</age>
         </friend>
     </friends>
 </social_media>

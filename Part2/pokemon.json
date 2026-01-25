@@ -1,0 +1,108 @@
+{
+    "pokemones":
+    {
+        "pokemon": 
+        [
+            {
+                "id": 1,
+                "basic_info":
+                {
+                    "nom": "Bulbasaur",
+                    "tipus":
+                    [
+                        "planta", "veneno"
+                    ],
+                    "pes": {
+                        "measure_unit": "kg",
+                        "value": 6.9
+                    },
+                    "altura": {
+                        "measure_unit": "cm",
+                        "value": 70
+                    },
+                    "estadistiques": 
+                    {
+                        "velocitat": 3,
+                        "fortalesa": 3,
+                        "precisio": 4,
+                        "resistencia": 4
+                    }
+                },
+                "moviments": {
+                    "moviment": [
+                        {
+                            "nom": "Placaje",
+                            "descripcio": "Carga contra el rival con todo el cuerpo para hacerle daño.",
+                            "potencia": 40,
+                            "contacte": true
+                        },
+                        {
+                            "nom": "Latigo Cepa",
+                            "descripcio": "Golpea al rival con cepos como si fueran latigos.",
+                            "potencia": 40,
+                            "contacte": true
+                        }
+                    ]
+                },
+                "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/43/latest/20190406170624/Bulbasaur.png/200px-Bulbasaur.png",
+                "evolucions": [
+                    {
+                        "id": 2, 
+                        "nom": "Ivysaur",
+                        "nivell_necessari": 16
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "basic_info":
+                {
+                    "nom": "Charmander",
+                    "tipus":
+                    [
+                        "fuego"
+                    ],
+                    "pes": {
+                        "measure_unit": "kg",
+                        "value": 8.5
+                    },
+                    "altura": {
+                        "measure_unit": "cm",
+                        "value": 60
+                    },
+                    "estadistiques": 
+                    {
+                        "velocitat": 3,
+                        "fortalesa": 5,
+                        "precisio": 4,
+                        "resistencia": 3
+                    }
+                },
+                "moviments": {
+                    "moviment": [
+                        {
+                            "nom": "Ascuas",
+                            "descripcio": "Ataca con pequeñas brasas que pueden quemar al rival.",
+                            "potencia": 40,
+                            "contacte": false
+                        },
+                        {
+                            "nom": "Garra",
+                            "descripcio": "Araña al rival con sus garras afiladas.",
+                            "potencia": 40,
+                            "contacte": true
+                        }
+                    ]
+                },
+                "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/56/latest/20200307023245/Charmander.png/200px-Charmander.png",
+                "evolucions": [
+                    {
+                        "id": 5, 
+                        "nom": "Charmeleon",
+                        "nivell_necessari": 16
+                    }
+                ]
+            }
+        ] 
+    }
+}
